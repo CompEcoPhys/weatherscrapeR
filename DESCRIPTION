@@ -1,0 +1,21 @@
+Package: weatherscrapeR
+Type: Package
+Title: weatherscrapeR: Weather scraping code for Wunderground JSON data
+Version: 0.0.1
+Authors@R: 
+    person("Adam", "Parlin", , "compecophys@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-0896-8051"))
+Description: Scrape weather data from the personal weather station (PWS) network from wunderground. Requires an API key, that can be obtained from wunderground when one connects their own PWS to their array. 
+License: CC0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    dplyr,
+    ggplot2,
+    jsonlite,
+    leaflet,
+    lubridate,
+    progress,
+    purrr,
+    magrittr
