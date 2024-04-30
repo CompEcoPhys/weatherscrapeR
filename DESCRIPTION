@@ -19,3 +19,5 @@ Imports:
     progress,
     purrr,
     magrittr
+URL: https://github.com/CompEcoPhys/weatherscrapeR
+BugReports: https://github.com/CompEcoPhys/weatherscrapeR/issues
